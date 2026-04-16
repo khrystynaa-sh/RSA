@@ -85,9 +85,12 @@ Message integrity is ensured using SHA-256 from Python’s standard library:
 
 ## Project Structure
 .
-├── client.py      # Client-side chat logic
+├── client.py  # Client-side chat logic
+
 ├── server.py      # Server-side communication and broadcasting
+
 ├── rsa.py         # RSA implementation
+
 └── README.md
 
 ## Conclusion
