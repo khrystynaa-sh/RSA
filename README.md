@@ -6,8 +6,8 @@ The system consists of a server and multiple clients communicating over sockets.
 ## How to Run
 
 ### 1. Clone repository
-git clone <your-repo-link>
-cd <repo-folder>
+- git clone <https://github.com/khrystynaa-sh/RSA.git>
+- cd <repo-folder>
 
 ### 2. Start the server
 python server.py
