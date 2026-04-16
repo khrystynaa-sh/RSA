@@ -7,13 +7,15 @@ The system consists of a server and multiple clients communicating over sockets.
 
 ### 1. Clone repository
 - git clone <https://github.com/khrystynaa-sh/RSA.git>
-- cd <repo-folder>
+- cd "folder_where_the_project_is"
 
 ### 2. Start the server
 python server.py
 
 You should see:
+
 [server]: generating RSA keys...
+
 [server]: ready, waiting for connections...
 
 ### 3. Start client(s)
@@ -51,7 +53,9 @@ Upon receiving a message:
 - Decrypt message using private key
 - Compute hash of decrypted message
 - Compare hashes:
+  
   If equal → message is valid
+
   If not → message was altered
 
 ## RSA Implementation Details
